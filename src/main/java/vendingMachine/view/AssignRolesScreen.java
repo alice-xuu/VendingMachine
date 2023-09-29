@@ -51,11 +51,11 @@ public class AssignRolesScreen extends Screen {
 
         table = new TableView<>();
         final Text label = new Text("Assign user roles");
-        label.setFont(new Font("Arial", 20));
+        label.setFont(new Font("SansSerif", 20));
         label.setFill(Color.rgb(7, 87, 91));
 
         final Text instruction = new Text("Double click the role of any user to edit role");
-        instruction.setFont(new Font("Arial", 12));
+        instruction.setFont(new Font("SansSerif", 12));
         instruction.setFill(Color.rgb(7, 87, 91));
 
         table.setEditable(true);

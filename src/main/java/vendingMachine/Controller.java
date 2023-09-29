@@ -84,6 +84,7 @@ public class Controller {
         this.snacks = this.dbQuery.getAllSnacks();
         this.userDetails = new String[] {"1", "anon", null, "customer"};
         this.primaryStage = primaryStage;
+        
 
         seconds = 0;
         timer = new Timer();
@@ -147,6 +148,7 @@ public class Controller {
      * @param scene scene to change stage to
      */
     private void setScene(Scene scene) {
+
         primaryStage.setScene(scene);
         primaryStage.show();
     }
